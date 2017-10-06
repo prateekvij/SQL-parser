@@ -13,11 +13,11 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	FILE *fp = fopen("sample2","r");
+	FILE *fp = fopen("sample.txt","r"); // change the filename if needed
 	fseek(fp, 0L, SEEK_END);
 	int size = ftell(fp);
 	fseek(fp,0L,SEEK_SET);
-
+	cout << "abc" << endl;
 	int tokens[size];
 	tokenise(fp, tokens, size);
 	parse();

@@ -1,0 +1,2 @@
+Select * frm tbl_name;
+Select (col1, col2) from tbl_2 JOIN tbl_1;
